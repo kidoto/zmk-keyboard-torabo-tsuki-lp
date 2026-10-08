@@ -15,4 +15,27 @@
         irq-gpios = <&gpio0 19 GPIO_ACTIVE_LOW>;
         power-gpios = <&gpio0 8 (GPIO_ACTIVE_HIGH | NRF_GPIO_DRIVE_H0H1)>;
     };
+pointing_listener: pointing_listener {
+
+    compatible = "zmk,input-listener";
+
+    status = "okay";
+
+    device = <&pointing_device>;
+
+    scroller {
+
+        layers = <4>;
+
+        input-processors = <
+
+            &zip_xy_to_scroll_mapper
+
+            &zip_scroll_scaler 1 4
+
+        >;
+
+    };
+
+};
 };
