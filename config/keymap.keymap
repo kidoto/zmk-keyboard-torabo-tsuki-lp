@@ -77,7 +77,7 @@
             bindings = <
 &trans  &trans            &trans            &trans      &trans      &trans                      &trans          &trans         &trans            &trans             &trans         &trans
 &trans  &kp JP_EQUAL   &kp JP_DQUOTE  &kp N7      &kp N8      &kp N9                  &kp JP_LPAREN       &kp JP_RPAREN  &kp JP_LBRACE     &kp JP_RBRACE  &kp MINUS     &trans
-&trans  &kp JP_AT      &kp EXCLAMATION            &kp N4      &kp N5      &kp N6      &trans  &trans  &winleft  &kp PG_DN      &kp PG_UP         &winright  &kp SEMICOLON      &trans
+&trans  &kp JP_AT      &kp EXCLAMATION            &kp N4      &kp N5      &kp N6      &trans  &trans  &kp LG(LEFT)  &kp PG_DN      &kp PG_UP         &kp LG(RIGHT)  &kp SEMICOLON      &trans
 &trans  &kp JP_PLUS            &kp N0            &kp N1      &kp N2      &kp N3      &trans  &trans  &kp LS(NUMBER_7)    &kp QUESTION   &kp SLASH         &kp JP_YEN     &kp JP_ASTERISK  &trans
 &trans  &trans            &trans            &trans      &trans      &trans      &trans  &trans  &kp LG(LS(RIGHT))   &kp COLON      &kp LG(UP_ARROW)  &kp BACKSLASH  &kp DOLLAR         &trans
 #if defined(TORABO_TSUKI_LP_KSCAN_4_DIRECTION_SWITCH)
