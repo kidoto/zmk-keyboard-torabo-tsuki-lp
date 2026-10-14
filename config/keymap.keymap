@@ -92,9 +92,9 @@
             bindings = <
 &trans  &trans   &trans   &trans        &trans        &trans                      &trans            &trans     &trans         &trans     &trans      &trans
 &trans  &kp ESCAPE  &kp LC(RIGHT)  &kp ENTER    &kp F5       &kp PLUS                      &kp F2            &kp F10            &kp BACKSPACE   &kp DELETE       &kp JP_UNDERSCORE  &trans
-&trans  &kp LC(A)   &kp LC(S)      &kp PERCENT  &kp PERCENT  &kp JP_AMPERSAND     &trans  &trans  &kp LEFT          &kp DOWN   &kp UP_ARROW   &kp RIGHT  &kp JP_COLON     &trans
-&trans  &kp LC(Z)   &kp LC(X)      &kp LC(C)    &kp LC(V)    &kp LC(LEFT)  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH    &trans
-&trans  &trans   &trans   &trans        &kp DELETE    &kp TAB     &trans  &trans  &trans            &trans     &trans         &trans     &kp PIPE      &trans
+&trans  &kp LC(A)   &kp LC(S)      &kp LS(NUMBER_5)  &kp LS(NUMBER_5)  &kp LS(NUMBER_6)     &trans  &trans  &kp LEFT          &kp DOWN   &kp UP_ARROW   &kp RIGHT  &kp JP_COLON     &trans
+&trans  &kp LC(Z)   &kp LC(X)      &kp LC(C)    &kp LC(V)    &kp LC(LEFT)  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_BACKSLASH    &trans
+&trans  &trans   &trans   &trans        &kp DELETE    &kp TAB     &trans  &trans  &trans            &trans     &trans         &trans     &kp JP_PIPE      &trans
 #if defined(TORABO_TSUKI_LP_KSCAN_4_DIRECTION_SWITCH)
 &msc SCRL_UP &msc SCRL_DOWN &msc SCRL_LEFT &msc SCRL_RIGHT &mkp MCLK
 #elif defined(TORABO_TSUKI_LP_INPUT_HIRES_DIAL)
@@ -105,9 +105,9 @@
         layer_4 {
             bindings = <
 &trans  &kp LA(F4)  &kp LC(PG_DN)  &kp LC(PG_UP)     &trans     &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &kp LG(LS(S))  &trans                       &trans     &trans                  &trans  &mkp MB1    &mkp MB2     &trans  &trans  &trans
-&trans  &trans  &trans  &mkp RCLK  &mkp LCLK  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &kp LA(F4)  &kp LC(PG_DN)  &kp LC(PG_UP)     &trans     &trans                  &trans  &mkp MB1    &mkp MB2     &trans  &trans  &trans
+&trans  &trans  &kp LG(LS(S))  &mkp RCLK  &mkp LCLK  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &kp LC(SPACE)  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
 #if defined(TORABO_TSUKI_LP_KSCAN_4_DIRECTION_SWITCH)
 &msc SCRL_UP &msc SCRL_DOWN &msc SCRL_LEFT &msc SCRL_RIGHT &mkp MCLK
 #elif defined(TORABO_TSUKI_LP_INPUT_HIRES_DIAL)
